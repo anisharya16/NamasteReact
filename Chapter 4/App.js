@@ -927,7 +927,9 @@ const Body = () => {
   return (
     <div className="restaurant-list">
       {restaurantList.map((fetchedData) => {
-        return <RestaurantCard {...fetchedData.data} key={fetchedData.data.id} />;
+        return (
+          <RestaurantCard {...fetchedData.data} key={fetchedData.data.id} />
+        );
       })}
 
       {/* <RestaurantCard {...restaurantList[0].data} />
