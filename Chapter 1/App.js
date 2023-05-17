@@ -14,7 +14,7 @@ const heading2 = React.createElement(
   "h2",
   {
     style: {
-      color: blue,
+      color: "blue",
     },
     id: "heading 2",
   },
