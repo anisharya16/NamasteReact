@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: rgb(122, 121, 133);
+  background: linear-gradient(
+    90deg,
+    rgba(122, 121, 133, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: rgb(122, 121, 133);
+  background: linear-gradient(
+    90deg,
+    rgba(122, 121, 133, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 10px;
+  margin-top: 100px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 20px;
+}
+
+ul > li {
+  padding: 10px;
+  font-size: larger;
+  color: wheat;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.restaurant-list {
+  display: flex;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.footerTitle {
+  padding: 30px;
+  color: antiquewhite;
+  font-size: 20px;
+}
+.shimmer-card {
+  width: 200px;
+  height: 200px;
+  background: lightgray;
+  margin: 20px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuList {
+  margin: 55px;
+}
