@@ -4,7 +4,7 @@ import RestaurantCard from "./RestaurantCard";
 
 function filterData(searchText, restaurants) {
   const searchedRestaurant = restaurants.filter((restaurant) =>
-    restaurant.data.name.includes(searchText)
+    restaurant.info.name.includes(searchText)
   );
   return searchedRestaurant;
 }
