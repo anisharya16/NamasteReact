@@ -7,7 +7,7 @@ const Shimmer = () => {
           return (
             <div
               className="shimmer-card"
-              id={Math.floor(Math.random() * 100)}
+              key={Math.floor(Math.random() * 100)}
             ></div>
           );
         })}

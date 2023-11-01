@@ -7,7 +7,7 @@ const Shimmer = () => {
           return (
             <div
               className="w-60 h-56 bg-slate-500 rounded-lg m-7"
-              id={Math.floor(Math.random() * 100)}
+              key={Math.floor(Math.random() * 100)}
             ></div>
           );
         })}
